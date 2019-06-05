@@ -1,0 +1,79 @@
+﻿Linux Intermediate Tasks
+
+
+Task 3: Cat Commands
+1 & 2.  cat  >umuzi.txt
+        Hello Fellow Bootcampers!!!
+        cat  >recruits.txt
+        Welcome New Recruits
+        cat  >cohort.txt
+        You Guys Are Our 14th Cohort
+
+
+3.          cat  umuzi.txt  recruits.txt  cohort.txt
+
+
+4.        cat  umuzi.txt  recruits.txt  cohort.txt  >  summary.txt
+
+
+5.        cat  >>summary.txt
+        Do Your Best!!!
+
+
+
+
+Task 4: The Locate Command
+1.        locate  umuzi.txt
+
+
+2.         find  umuzi.txt
+        cat  umuzi.txt  >  search_result.txt
+
+
+Task 5: The Locate Command cont…
+1.        mkdir  mydocument
+cd  mydocument
+touch  pad.txt
+
+
+2.        cd  ../
+        mkdir  work
+
+
+3.        cd  mydocument
+        cp  pad.txt ../work
+        cd  ../work
+        mv  pad.txt pad_copy.txt
+
+
+4.        locate  updatedb
+
+
+5.        cd  ../
+
+
+6.        locate  pad_copy.txt
+
+
+Task 6: Find Command
+1.        find  ~  *.pdf
+
+
+2.        cat  (search results)  >  (folder name)
+
+
+3.        find  .  -mtime  -l  -print
+
+
+
+
+Task 10: Find Command
+1.        nano  my_bio.txt
+
+
+2.        Control o
+        Control x
+
+
+3.        mkdir  my_files
+        mv  my_bio.txt  ../my_files
